@@ -1,0 +1,7 @@
+@import '../../styles/_variables.css';
+@import '../../styles/_custom-properties.css';
+
+.App {
+  @apply --absolute-full;
+  @apply --gradient-green;
+}

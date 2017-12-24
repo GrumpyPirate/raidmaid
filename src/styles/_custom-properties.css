@@ -1,0 +1,21 @@
+@import './_variables.css';
+
+:root {
+  --absolute-full: {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  --gradient-green: {
+    background-image: linear-gradient(
+      to bottom,
+      var(--gradient-green--light) 0%,
+      var(--gradient-green--dark)
+    );
+  }
+}
