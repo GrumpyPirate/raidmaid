@@ -1,16 +1,27 @@
+// React
 import React, { Component } from 'react';
+
+// Styles
 import classes from './index.css'
 
+// Components
+// import { Container } from '../Layout';
+import Header from '../Header';
+import CurrentRaidList from '../CurrentRaidList';
+
+// Define component
 class App extends Component {
-  render() {
+  render () {
     return (
-      /* Current Raid list */
       <div className={classes.App}>
-        <h1 style={{ margin: 0 }}>Testicles</h1>
+        {/* App header */}
+        <Header />
+
+        {/* Current raid list */}
+        <CurrentRaidList />
       </div>
-      /* Report CTAs */
     );
-  }
-}
+  } // /render
+} // /Component
 
 export default App;

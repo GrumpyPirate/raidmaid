@@ -1,6 +1,20 @@
 @import './_variables.css';
+@import './_custom-media.css';
 
 :root {
+  --button-reset: {
+    cursor: pointer;
+    background: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    font-family: inherit;
+    color: inherit;
+    user-select: none;
+    touch-action: manipulation;
+  }
+
   --absolute-full: {
     position: absolute;
     top: 0;
@@ -17,5 +31,34 @@
       var(--gradient-green--light) 0%,
       var(--gradient-green--dark)
     );
+  }
+
+  --gradient-green--angle: {
+    background-image: linear-gradient(
+      140deg,
+      var(--gradient-green--light) 0%,
+      var(--gradient-green--dark)
+    );
+  }
+
+  --container: {
+    max-width: 100%;
+    padding-right: calc(var(--container-padding-xs) / 2);
+    padding-left: calc(var(--container-padding-xs) / 2);
+
+    @media (--tablet-up) {
+      padding-right: calc(var(--container-padding-md) / 2);
+      padding-left: calc(var(--container-padding-md) / 2);
+    }
+  }
+
+  --overflow-y-scroll: {
+    touch-action: pan-y;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  --box-shadow: {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, .5);
   }
 }

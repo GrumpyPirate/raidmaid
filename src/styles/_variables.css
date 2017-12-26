@@ -1,10 +1,41 @@
 :root {
+  /* Colours */
   --white: #fff;
-  --gradient-green--light: #a8dd9c;
+  --gradient-green--light: #aefba8;
   --gradient-green--dark: #24ccaa;
+  --green-light: #F1FFEF;
   --green-dark: #1D8696;
-  --gutter-width: 10px;
+  --green-darker: #197380;
+  --gutter-width: .625rem; /* 10px */
+
+  /* Typography */
   --font-stack-sans-serif: Lato, 'Open Sans', sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Animation */
+  --animation-duration: .1s;
+  --animation-easing: ease-in-out;
+
+  /* Layout */
+  --header-height-xs: 2.75rem; /* 44px */
+  --header-height-md: 4.5rem; /* 72px */
+
+  --breakpoint-sm: 30rem; /* 480px */
+  --breakpoint-md: 48rem; /* 768px */
+  --breakpoint-lg: 62rem; /* 992px */
+  --breakpoint-xl: 75rem; /* 1200px */
+
+  --container-padding-xs: 1.25rem; /* 20px */
+  --container-padding-md: 1.875rem; /* 30px */
+
+  /* Element modifiers */
+  --button-border-radius: 6.25rem; /* 100px */
+
+  /* Components */
+  --current-raid-height-xs: 2.75rem; /* 44px */
+  --current-raid-height-md: 4rem; /* 64px */
 }
 
 html,

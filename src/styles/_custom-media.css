@@ -1,0 +1,11 @@
+@import './_variables.css';
+
+/* Width-specific */
+@custom-media --mobile (max-width: 480px);
+@custom-media --tablet (min-width: 768px) and (max-width: 992px);
+@custom-media --desktop (min-width: 992px) and (max-width: 1200px);
+@custom-media --widescreen (min-width: 1200px);
+
+/* Mobile-first */
+@custom-media --tablet-up (min-width: 768px);
+@custom-media --desktop-up (min-width: 992px);
