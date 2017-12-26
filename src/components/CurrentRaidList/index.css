@@ -1,0 +1,30 @@
+@import '../../styles/_core.css';
+
+.currentRaids {
+  position: relative;
+  background-color: #1D869677;
+}
+
+.currentRaidsLoading {
+
+}
+
+.currentRaidsTitle {
+  font-size: 1rem;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 0;
+  padding: calc(var(--container-padding-xs) / 2) 0;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, .25);
+}
+
+.currentRaidsList {
+  @apply --overflow-y-scroll;
+  margin: 0;
+  padding: 0;
+  max-height: calc(var(--current-raid-height-xs) * 4);
+
+  @media (--tablet-up) {
+    max-height: calc(var(--current-raid-height-md) * 4);
+  }
+}

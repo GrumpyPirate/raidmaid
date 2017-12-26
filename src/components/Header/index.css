@@ -1,0 +1,26 @@
+@import '../../styles/_variables.css';
+@import '../../styles/_custom-properties.css';
+
+.appHeader {
+  @apply --container;
+  height: var(--header-height-xs);
+  background-color: var(--green-dark);
+  display: flex;
+  justify-content: space-between;
+
+  @media (--tablet-up) {
+    height: var(--header-height-md);
+  }
+}
+
+.appHeader__title {
+  font-size: 12px;
+  font-weight: var(--font-weight-regular);
+  align-self: center;
+  margin: 0;
+  user-select: none;
+
+  @media (--tablet-up) {
+    font-size: 24px;
+  }
+}

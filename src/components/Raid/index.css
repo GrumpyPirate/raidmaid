@@ -1,0 +1,121 @@
+@import '../../styles/_core.css';
+
+.raid {
+  display: flex;
+  align-items: center;
+  height: var(--current-raid-height-xs);
+  transition: box-shadow var(--animation-duration) var(--animation-easing);
+  overflow: hidden;
+
+  @media (--tablet-up) {
+    height: var(--current-raid-height-md);
+  }
+
+  &:not(:last-child) {
+    border-bottom: solid 1px rgba(255, 255, 255, .2);
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: 0;
+  }
+
+  &:focus {
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .4);
+  }
+}
+
+.raid > * {
+  flex: 0 0 auto;
+}
+
+.raidColumn {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: calc(var(--container-padding-xs) / 4);
+  padding-left: calc(var(--container-padding-xs) / 4);
+
+  @media (--tablet-up) {
+    padding-right: calc(var(--container-padding-md) / 4);
+    padding-left: calc(var(--container-padding-md) / 4);
+  }
+}
+
+.raidColumnSubtitle {
+  display: block;
+  font-size: .625rem;
+  font-weight: var(--font-weight-light);
+  line-height: 1.25;
+  margin: 0;
+
+  @media (--tablet-up) {
+    font-size: .75rem;
+  }
+}
+
+.raidColumnTitle {
+  font-weight: var(--font-weight-regular);
+  font-size: .75rem;
+  margin: 0;
+
+  @media (--tablet-up) {
+    font-size: 1rem;
+  }
+}
+
+.raidIcon {
+  position: relative;
+  display: block;
+  width: var(--current-raid-height-xs);
+
+  @media (--tablet-up) {
+    width: var(--current-raid-height-md);
+  }
+}
+
+.raidIcon img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+}
+
+.raidLocation {
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-self: stretch;
+  padding-top: 8px;
+
+  @media (--tablet-up) {
+    align-self: center;
+    padding: 0;
+  }
+}
+
+.raidLocationTitle {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.raidStartTime {
+}
+
+.raidStartTimeText {
+}
+
+.raidMeetupTime {
+}
+
+.raidMeetupTimeText {
+}
+
+.joinRaid {
+}
+
+.joinRaidButton {
+
+}
+

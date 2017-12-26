@@ -1,0 +1,11 @@
+@import '../../styles/_variables.css';
+@import '../../styles/_custom-properties.css';
+@import '../../styles/_custom-media.css';
+
+.container {
+  @apply --container;
+}
+
+.containerFluid {
+
+}

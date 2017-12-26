@@ -1,0 +1,41 @@
+@import '../../styles/_core.css';
+
+.pillButton {
+  position: relative;
+  composes: button from '../../styles/_buttons.css';
+  width: 36px;
+  height: 36px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    background-color: var(--green-dark);
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.pillButtonText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.pillButtonDark {
+  composes: pillButton;
+  @apply --gradient-green--angle;
+  border: solid 4px var(--green-dark);
+  color: var(--gradient-green--light);
+
+  &:active {
+    &::after {
+      background-color: var(--green-darker);
+    }
+  }
+}
