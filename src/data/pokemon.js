@@ -1,4 +1,5 @@
 const pokemon = [
+  // Gen 1
   {
     "ename": "Bulbasaur",
     "id": "001",
@@ -88,6 +89,16 @@ const pokemon = [
     "ename": "Pidgeot",
     "id": "018",
     "type": ["normal", "flying"]
+  },
+  {
+    "ename": "Rattata",
+    "id": "019",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Raticate",
+    "id": "020",
+    "type": ["normal"]
   },
   {
     "ename": "Spearow",
@@ -245,6 +256,16 @@ const pokemon = [
     "ename": "Dugtrio",
     "id": "051",
     "type": ["ground"]
+  },
+  {
+    "ename": "Meowth",
+    "id": "052",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Persian",
+    "id": "053",
+    "type": ["normal"]
   },
   {
     "ename": "Psyduck",
@@ -523,6 +544,16 @@ const pokemon = [
     "type": ["normal"]
   },
   {
+    "ename": "Koffing",
+    "id": "109",
+    "type": ["poison"]
+  },
+  {
+    "ename": "Weezing",
+    "id": "110",
+    "type": ["poison"]
+  },
+  {
     "ename": "Rhyhorn",
     "id": "111",
     "type": ["ground", "rock"]
@@ -654,6 +685,11 @@ const pokemon = [
     "type": ["fire"]
   },
   {
+    "ename": "Porygon",
+    "id": "137",
+    "type": ["normal"]
+  },
+  {
     "ename": "Omanyte",
     "id": "138",
     "type": ["rock", "water"]
@@ -717,6 +753,57 @@ const pokemon = [
     "ename": "Mewtwo",
     "id": "150",
     "type": ["psychic"]
+  },
+  {
+    "ename": "Mew",
+    "id": "151",
+    "type": ["psychic"]
+  },
+  // Gen 2
+  {
+    "ename": "Chikorita",
+    "id": "152",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Bayleef",
+    "id": "153",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Meganium",
+    "id": "154",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Cyndaquil",
+    "id": "155",
+    "type": ["fire"]
+  },
+  {
+    "ename": "Quilava",
+    "id": "156",
+    "type": ["fire"]
+  },
+  {
+    "ename": "Typhlosion",
+    "id": "157",
+    "type": ["fire"]
+  },
+  {
+    "ename": "Totodile",
+    "id": "158",
+    "type": ["water"]
+  },
+  {
+    "ename": "Croconaw",
+    "id": "159",
+    "type": ["water"]
+  },
+  {
+    "ename": "Feraligatr",
+    "id": "160",
+    "type": ["water"]
   },
   {
     "ename": "Sentret",
@@ -914,6 +1001,16 @@ const pokemon = [
     "type": ["water", "psychic"]
   },
   {
+    "ename": "Misdreavus",
+    "id": "200",
+    "type": ["ghost"]
+  },
+  {
+    "ename": "Unown",
+    "id": "201",
+    "type": ["psychic"]
+  },
+  {
     "ename": "Wobbuffet",
     "id": "202",
     "type": ["psychic"]
@@ -1069,6 +1166,16 @@ const pokemon = [
     "type": ["ground"]
   },
   {
+    "ename": "Porygon2",
+    "id": "233",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Stantler",
+    "id": "234",
+    "type": ["normal"]
+  },
+  {
     "ename": "Smeargle",
     "id": "235",
     "type": ["normal"]
@@ -1109,6 +1216,21 @@ const pokemon = [
     "type": ["normal"]
   },
   {
+    "ename": "Raikou",
+    "id": "243",
+    "type": ["electric"]
+  },
+  {
+    "ename": "Entei",
+    "id": "244",
+    "type": ["fire"]
+  },
+  {
+    "ename": "Suicune",
+    "id": "245",
+    "type": ["water"]
+  },
+  {
     "ename": "Larvitar",
     "id": "246",
     "type": ["rock", "ground"]
@@ -1124,6 +1246,37 @@ const pokemon = [
     "type": ["rock", "dark"]
   },
   {
+    "ename": "Lugia",
+    "id": "249",
+    "type": ["psychic", "flying"]
+  },
+  {
+    "ename": "Ho-Oh",
+    "id": "250",
+    "type": ["fire", "flying"]
+  },
+  {
+    "ename": "Celebi",
+    "id": "251",
+    "type": ["psychic", "grass"]
+  },
+  // Gen 3
+  {
+    "ename": "Treecko",
+    "id": "252",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Grovyle",
+    "id": "253",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Sceptile",
+    "id": "254",
+    "type": ["grass"]
+  },
+  {
     "ename": "Torchic",
     "id": "255",
     "type": ["fire"]
@@ -1137,6 +1290,21 @@ const pokemon = [
     "ename": "Blaziken",
     "id": "257",
     "type": ["fire", "fighting"]
+  },
+  {
+    "ename": "Mudkip",
+    "id": "258",
+    "type": ["water"]
+  },
+  {
+    "ename": "Marshtomp",
+    "id": "259",
+    "type": ["water", "ground"]
+  },
+  {
+    "ename": "Swampert",
+    "id": "260",
+    "type": ["water", "ground"]
   },
   {
     "ename": "Poochyena",
@@ -1267,6 +1435,21 @@ const pokemon = [
     "ename": "Breloom",
     "id": "286",
     "type": ["grass", "fighting"]
+  },
+  {
+    "ename": "Slakoth",
+    "id": "287",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Vigoroth",
+    "id": "288",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Slaking",
+    "id": "289",
+    "type": ["normal"]
   },
   {
     "ename": "Nincada",
@@ -1534,6 +1717,16 @@ const pokemon = [
     "type": ["water", "dark"]
   },
   {
+    "ename": "Baltoy",
+    "id": "343",
+    "type": ["ground", "psychic"]
+  },
+  {
+    "ename": "Claydol",
+    "id": "344",
+    "type": ["ground", "psychic"]
+  },
+  {
     "ename": "Lileep",
     "id": "345",
     "type": ["rock", "grass"]
@@ -1552,6 +1745,21 @@ const pokemon = [
     "ename": "Armaldo",
     "id": "348",
     "type": ["rock", "bug"]
+  },
+  {
+    "ename": "Feebas",
+    "id": "349",
+    "type": ["water"]
+  },
+  {
+    "ename": "Milotic",
+    "id": "350",
+    "type": ["water"]
+  },
+  {
+    "ename": "Castform",
+    "id": "351",
+    "type": ["normal"]
   },
   {
     "ename": "Kecleon",
@@ -1679,6 +1887,102 @@ const pokemon = [
     "type": ["steel", "psychic"]
   },
   {
+    "ename": "Regirock",
+    "id": "377",
+    "type": ["rock"]
+  },
+  {
+    "ename": "Regice",
+    "id": "378",
+    "type": ["ice"]
+  },
+  {
+    "ename": "Registeel",
+    "id": "379",
+    "type": ["steel"]
+  },
+  {
+    "ename": "Latias",
+    "id": "380",
+    "type": ["dragon", "psychic"]
+  },
+  {
+    "ename": "Latios",
+    "id": "381",
+    "type": ["dragon", "psychic"]
+  },
+  {
+    "ename": "Kyogre",
+    "id": "382",
+    "type": ["water"]
+  },
+  {
+    "ename": "Groudon",
+    "id": "383",
+    "type": ["ground"]
+  },
+  {
+    "ename": "Rayquaza",
+    "id": "384",
+    "type": ["dragon", "flying"]
+  },
+  {
+    "ename": "Jirachi",
+    "id": "385",
+    "type": ["steel", "flying"]
+  },
+  {
+    "ename": "Deoxys",
+    "id": "386",
+    "type": ["psychic"]
+  },
+  // Gen 4
+  {
+    "ename": "Turtwig",
+    "id": "387",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Grotle",
+    "id": "388",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Torterra",
+    "id": "389",
+    "type": ["grass", "ground"]
+  },
+  {
+    "ename": "Chimchar",
+    "id": "390",
+    "type": ["fire"]
+  },
+  {
+    "ename": "Monferno",
+    "id": "391",
+    "type": ["fire", "fighting"]
+  },
+  {
+    "ename": "Infernape",
+    "id": "392",
+    "type": ["fire", "fighting"]
+  },
+  {
+    "ename": "Piplup",
+    "id": "393",
+    "type": ["water"]
+  },
+  {
+    "ename": "Prinplup",
+    "id": "394",
+    "type": ["water"]
+  },
+  {
+    "ename": "Empoleon",
+    "id": "395",
+    "type": ["water", "steel"]
+  },
+  {
     "ename": "Starly",
     "id": "396",
     "type": ["normal", "flying"]
@@ -1702,6 +2006,16 @@ const pokemon = [
     "ename": "Bibarel",
     "id": "400",
     "type": ["normal", "water"]
+  },
+  {
+    "ename": "Kricketot",
+    "id": "401",
+    "type": ["bug"]
+  },
+  {
+    "ename": "Kricketune",
+    "id": "402",
+    "type": ["bug"]
   },
   {
     "ename": "Shinx",
@@ -1751,41 +2065,11 @@ const pokemon = [
   {
     "ename": "Burmy",
     "id": "412",
-    'model': [
-      {
-        "id": "412G",
-        "type": [
-          "Bug"
-        ]
-      },
-      {
-        "id": "412S",
-        "type": [
-          "Bug"
-        ]
-      }
-    ],
     "type": ["bug"]
   },
   {
     "ename": "Wormadam",
     "id": "413",
-    'model': [
-      {
-        "id": "413G",
-        "type": [
-          "Bug",
-          "Ground"
-        ]
-      },
-      {
-        "id": "413S",
-        "type": [
-          "Bug",
-          "Steel"
-        ]
-      }
-    ],
     "type": ["bug", "grass"]
   },
   {
@@ -1819,30 +2103,23 @@ const pokemon = [
     "type": ["water"]
   },
   {
+    "ename": "Cherubi",
+    "id": "420",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Cherrim",
+    "id": "421",
+    "type": ["grass"]
+  },
+  {
     "ename": "Shellos",
     "id": "422",
-    'model': [
-      {
-        "id": "422E",
-        "type": [
-          "Water"
-        ]
-      }
-    ],
     "type": ["water"]
   },
   {
     "ename": "Gastrodon",
     "id": "423",
-    'model': [
-      {
-        "id": "423E",
-        "type": [
-          "Water",
-          "Ground"
-        ]
-      }
-    ],
     "type": ["water", "ground"]
   },
   {
@@ -1860,10 +2137,35 @@ const pokemon = [
     "id": "426",
     "type": ["ghost", "flying"]
   },
+  "427": {
+    "ename": "Buneary",
+    "id": "427",
+    "type": ["normal"]
+  },
+  "428": {
+    "ename": "Lopunny",
+    "id": "428",
+    "type": ["normal"]
+  },
+  "429": {
+    "ename": "Mismagius",
+    "id": "429",
+    "type": ["ghost"]
+  },
   {
     "ename": "Honchkrow",
     "id": "430",
     "type": ["dark", "flying"]
+  },
+  {
+    "ename": "Glameow",
+    "id": "431",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Purugly",
+    "id": "432",
+    "type": ["normal"]
   },
   {
     "ename": "Chingling",
@@ -1982,6 +2284,16 @@ const pokemon = [
     "type": ["grass"]
   },
   {
+    "ename": "Finneon",
+    "id": "456",
+    "type": ["water"]
+  },
+  {
+    "ename": "Lumineon",
+    "id": "457",
+    "type": ["water"]
+  },
+  {
     "ename": "Mantyke",
     "id": "458",
     "type": ["water", "flying"]
@@ -2062,6 +2374,11 @@ const pokemon = [
     "type": ["ice", "ground"]
   },
   {
+    "ename": "Porygon-Z",
+    "id": "474",
+    "type": ["normal"]
+  },
+  {
     "ename": "Gallade",
     "id": "475",
     "type": ["psychic", "fighting"]
@@ -2084,44 +2401,128 @@ const pokemon = [
   {
     "ename": "Rotom",
     "id": "479",
-    'model': [
-      {
-        "id": "479O",
-        "type": [
-          "Electric",
-          "Fire"
-        ]
-      },
-      {
-        "id": "479W",
-        "type": [
-          "Electric",
-          "Water"
-        ]
-      },
-      {
-        "id": "479R",
-        "type": [
-          "Electric",
-          "Ice"
-        ]
-      },
-      {
-        "id": "479F",
-        "type": [
-          "Electric",
-          "Flying"
-        ]
-      },
-      {
-        "id": "479L",
-        "type": [
-          "Electric",
-          "Grass"
-        ]
-      }
-    ],
     "type": ["electric", "ghost"]
+  },
+  {
+    "ename": "Uxie",
+    "id": "480",
+    "type": ["psychic"]
+  },
+  {
+    "ename": "Mesprit",
+    "id": "481",
+    "type": ["psychic"]
+  },
+  {
+    "ename": "Azelf",
+    "id": "482",
+    "type": ["psychic"]
+  },
+  {
+    "ename": "Dialga",
+    "id": "483",
+    "type": ["steel", "dragon"]
+  },
+  {
+    "ename": "Palkia",
+    "id": "484",
+    "type": ["water", "dragon"]
+  },
+  {
+    "ename": "Heatran",
+    "id": "485",
+    "type": ["fire", "steel"]
+  },
+  {
+    "ename": "Regigigas",
+    "id": "486",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Giratina",
+    "id": "487",
+    "type": ["ghost", "dragon"]
+  },
+  {
+    "ename": "Cresselia",
+    "id": "488",
+    "type": ["psychic"]
+  },
+  {
+    "ename": "Phione",
+    "id": "489",
+    "type": ["water"]
+  },
+  {
+    "ename": "Manaphy",
+    "id": "490",
+    "type": ["water"]
+  },
+  {
+    "ename": "Darkrai",
+    "id": "491",
+    "type": ["dark"]
+  },
+  {
+    "ename": "Shaymin",
+    "id": "492",
+    "type": ["grass", "flying"]
+  },
+  {
+    "ename": "Arceus",
+    "id": "493",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Victini",
+    "id": "494",
+    "type": ["psychic", "fire"]
+  },
+  // Gen 5
+  {
+    "ename": "Snivy",
+    "id": "495",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Servine",
+    "id": "496",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Serperior",
+    "id": "497",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Tepig",
+    "id": "498",
+    "type": ["fire"]
+  },
+  {
+    "ename": "Pignite",
+    "id": "499",
+    "type": ["fire", "fighting"]
+  },
+  {
+    "ename": "Emboar",
+    "id": "500",
+    "type": ["fire", "fighting"]
+  },
+  {
+    "ename": "Oshawott",
+    "id": "501",
+    "type": ["water"]
+  },
+  {
+    "ename": "Dewott",
+    "id": "502",
+    "type": ["water"]
+  },
+  {
+    "ename": "Samurott",
+    "id": "503",
+    "type": ["water"]
   },
   {
     "ename": "Patrat",
@@ -2211,15 +2612,6 @@ const pokemon = [
   {
     "ename": "Unfezant",
     "id": "521",
-    'model': [
-      {
-        "id": "521F",
-        "type": [
-          "Normal",
-          "Flying"
-        ]
-      }
-    ],
     "type": ["normal", "flying"]
   },
   {
@@ -2343,6 +2735,16 @@ const pokemon = [
     "type": ["bug", "poison"]
   },
   {
+    "ename": "Cottonee",
+    "id": "546",
+    "type": ["grass", "fairy"]
+  },
+  {
+    "ename": "Whimsicott",
+    "id": "547",
+    "type": ["grass", "fairy"]
+  },
+  {
     "ename": "Petilil",
     "id": "548",
     "type": ["grass"]
@@ -2355,14 +2757,6 @@ const pokemon = [
   {
     "ename": "Basculin",
     "id": "550",
-    'model': [
-      {
-        "id": "550B",
-        "type": [
-          "Water"
-        ]
-      }
-    ],
     "type": ["water"]
   },
   {
@@ -2379,6 +2773,16 @@ const pokemon = [
     "ename": "Krookodile",
     "id": "553",
     "type": ["ground", "dark"]
+  },
+  {
+    "ename": "Darumaka",
+    "id": "554",
+    "type": ["fire"]
+  },
+  {
+    "ename": "Darmanitan",
+    "id": "555",
+    "type": ["fire", "psychic"]
   },
   {
     "ename": "Maractus",
@@ -2409,6 +2813,16 @@ const pokemon = [
     "ename": "Sigilyph",
     "id": "561",
     "type": ["psychic", "flying"]
+  },
+  {
+    "ename": "Yamask",
+    "id": "562",
+    "type": ["ghost"]
+  },
+  {
+    "ename": "Cofagrigus",
+    "id": "563",
+    "type": ["ghost"]
   },
   {
     "ename": "Tirtouga",
@@ -2551,6 +2965,16 @@ const pokemon = [
     "type": ["grass", "poison"]
   },
   {
+    "ename": "Frillish",
+    "id": "592",
+    "type": ["water", "ghost"]
+  },
+  {
+    "ename": "Jellicent",
+    "id": "593",
+    "type": ["water", "ghost"]
+  },
+  {
     "ename": "Alomomola",
     "id": "594",
     "type": ["water"]
@@ -2589,6 +3013,31 @@ const pokemon = [
     "ename": "Klinklang",
     "id": "601",
     "type": ["steel"]
+  },
+  {
+    "ename": "Tynamo",
+    "id": "602",
+    "type": ["electric"]
+  },
+  {
+    "ename": "Eelektrik",
+    "id": "603",
+    "type": ["electric"]
+  },
+  {
+    "ename": "Eelektross",
+    "id": "604",
+    "type": ["electric"]
+  },
+  {
+    "ename": "Elgyem",
+    "id": "605",
+    "type": ["psychic"]
+  },
+  {
+    "ename": "Beheeyem",
+    "id": "606",
+    "type": ["psychic"]
   },
   {
     "ename": "Litwick",
@@ -2686,6 +3135,11 @@ const pokemon = [
     "type": ["dark", "steel"]
   },
   {
+    "ename": "Bouffalant",
+    "id": "626",
+    "type": ["normal"]
+  },
+  {
     "ename": "Rufflet",
     "id": "627",
     "type": ["normal", "flying"]
@@ -2740,6 +3194,67 @@ const pokemon = [
     "id": "637",
     "type": ["bug", "fire"]
   },
+  {
+    "ename": "Cobalion",
+    "id": "638",
+    "type": ["steel", "fighting"]
+  },
+  {
+    "ename": "Terrakion",
+    "id": "639",
+    "type": ["rock", "fighting"]
+  },
+  {
+    "ename": "Virizion",
+    "id": "640",
+    "type": ["grass", "fighting"]
+  },
+  {
+    "ename": "Tornadus",
+    "id": "641",
+    "type": ["flying"]
+  },
+  {
+    "ename": "Thundurus",
+    "id": "642",
+    "type": ["electric", "flying"]
+  },
+  {
+    "ename": "Reshiram",
+    "id": "643",
+    "type": ["dragon", "fire"]
+  },
+  {
+    "ename": "Zekrom",
+    "id": "644",
+    "type": ["dragon", "electric"]
+  },
+  {
+    "ename": "Landorus",
+    "id": "645",
+    "type": ["ground", "flying"]
+  },
+  {
+    "ename": "Kyurem",
+    "id": "646",
+    "type": ["dragon", "ice"]
+  },
+  {
+    "ename": "Keldeo",
+    "id": "647",
+    "type": ["water", "fighting"]
+  },
+  {
+    "ename": "Meloetta",
+    "id": "648",
+    "type": ["normal", "psychic"]
+  },
+  {
+    "ename": "Genesect",
+    "id": "649",
+    "type": ["bug", "steel"]
+  },
+  // Gen 6
   {
     "ename": "Chespin",
     "id": "650",
@@ -3100,6 +3615,437 @@ const pokemon = [
     "ename": "Volcanion",
     "id": "721",
     "type": ["fire", "water"]
+  },
+  // Gen 7
+  {
+    "ename": "Rowlet",
+    "id": "722",
+    "type": ["grass", "flying"]
+  },
+  {
+    "ename": "Dartrix",
+    "id": "723",
+    "type": ["grass", "flying"]
+  },
+  {
+    "ename": "Decidueye",
+    "id": "724",
+    "type": ["grass", "ghost"]
+  },
+  {
+    "ename": "Litten",
+    "id": "725",
+    "type": ["fire"]
+  },
+  {
+    "ename": "Torracat",
+    "id": "726",
+    "type": ["fire"]
+  },
+  {
+    "ename": "Incineroar",
+    "id": "727",
+    "type": ["fire", "dark"]
+  },
+  {
+    "ename": "Popplio",
+    "id": "728",
+    "type": ["water"]
+  },
+  {
+    "ename": "Brionne",
+    "id": "729",
+    "type": ["water"]
+  },
+  {
+    "ename": "Primarina",
+    "id": "730",
+    "type": ["water", "fairy"]
+  },
+  {
+    "ename": "Pikipek",
+    "id": "731",
+    "type": ["normal", "flying"]
+  },
+  {
+    "ename": "Trumbeak",
+    "id": "732",
+    "type": ["normal", "flying"]
+  },
+  {
+    "ename": "Toucannon",
+    "id": "733",
+    "type": ["normal", "flying"]
+  },
+  {
+    "ename": "Yungoos",
+    "id": "734",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Gumshoos",
+    "id": "735",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Grubbin",
+    "id": "736",
+    "type": ["bug"]
+  },
+  {
+    "ename": "Charjabug",
+    "id": "737",
+    "type": ["bug", "electric"]
+  },
+  {
+    "ename": "Vikavolt",
+    "id": "738",
+    "type": ["bug", "electric"]
+  },
+  {
+    "ename": "Crabrawler",
+    "id": "739",
+    "type": ["fighting", "ice"]
+  },
+  {
+    "ename": "Crabominable",
+    "id": "740",
+    "type": ["fighting", "ice"]
+  },
+  {
+    "ename": "Oricorio",
+    "id": "741",
+    "type": ["flying", "fire", "electric", "psychic", "ghost"]
+  },
+  {
+    "ename": "Cutiefly",
+    "id": "742",
+    "type": ["bug", "fairy"]
+  },
+  {
+    "ename": "Ribombee",
+    "id": "743",
+    "type": ["bug", "fairy"]
+  },
+  {
+    "ename": "Rockruff",
+    "id": "744",
+    "type": ["rock"]
+  },
+  {
+    "ename": "Lycanroc",
+    "id": "745",
+    "type": ["rock"]
+  },
+  {
+    "ename": "Wishiwashi",
+    "id": "746",
+    "type": ["water"]
+  },
+  {
+    "ename": "Mareanie",
+    "id": "747",
+    "type": ["poison", "water"]
+  },
+  {
+    "ename": "Toxapex",
+    "id": "748",
+    "type": ["poison", "water"]
+  },
+  {
+    "ename": "Mudbray",
+    "id": "749",
+    "type": ["ground"]
+  },
+  {
+    "ename": "Mudsdale",
+    "id": "750",
+    "type": ["ground"]
+  },
+  {
+    "ename": "Dewpider",
+    "id": "751",
+    "type": ["water", "bug"]
+  },
+  {
+    "ename": "Araquanid",
+    "id": "752",
+    "type": ["water", "bug"]
+  },
+  {
+    "ename": "Fomantis",
+    "id": "753",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Lurantis",
+    "id": "754",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Morelull",
+    "id": "755",
+    "type": ["grass", "fairy"]
+  },
+  {
+    "ename": "Shiinotic",
+    "id": "756",
+    "type": ["grass", "fairy"]
+  },
+  {
+    "ename": "Salandit",
+    "id": "757",
+    "type": ["poison", "fire"]
+  },
+  {
+    "ename": "Salazzle",
+    "id": "758",
+    "type": ["poison", "fire"]
+  },
+  {
+    "ename": "Stufful",
+    "id": "759",
+    "type": ["normal", "fighting"]
+  },
+  {
+    "ename": "Bewear",
+    "id": "760",
+    "type": ["normal", "fighting"]
+  },
+  {
+    "ename": "Bounsweet",
+    "id": "761",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Steenee",
+    "id": "762",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Tsareena",
+    "id": "763",
+    "type": ["grass"]
+  },
+  {
+    "ename": "Comfey",
+    "id": "764",
+    "type": ["fairy"]
+  },
+  {
+    "ename": "Oranguru",
+    "id": "765",
+    "type": ["normal", "psychic"]
+  },
+  {
+    "ename": "Passimian",
+    "id": "766",
+    "type": ["fighting"]
+  },
+  {
+    "ename": "Wimpod",
+    "id": "767",
+    "type": ["bug", "water"]
+  },
+  {
+    "ename": "Golisopod",
+    "id": "768",
+    "type": ["bug", "water"]
+  },
+  {
+    "ename": "Sandygast",
+    "id": "769",
+    "type": ["ghost", "ground"]
+  },
+  {
+    "ename": "Palossand",
+    "id": "770",
+    "type": ["ghost", "ground"]
+  },
+  {
+    "ename": "Pyukumuku",
+    "id": "771",
+    "type": ["water"]
+  },
+  {
+    "ename": "Type: Null",
+    "id": "772",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Silvally",
+    "id": "773",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Minior",
+    "id": "774",
+    "type": ["rock", "flying"]
+  },
+  {
+    "ename": "Komala",
+    "id": "775",
+    "type": ["normal"]
+  },
+  {
+    "ename": "Turtonator",
+    "id": "776",
+    "type": ["fire", "dragon"]
+  },
+  {
+    "ename": "Togedemaru",
+    "id": "777",
+    "type": ["electric", "steel"]
+  },
+  {
+    "ename": "Mimikyu",
+    "id": "778",
+    "type": ["ghost", "fairy"]
+  },
+  {
+    "ename": "Bruxish",
+    "id": "779",
+    "type": ["water", "psychic"]
+  },
+  {
+    "ename": "Drampa",
+    "id": "780",
+    "type": ["normal", "dragon"]
+  },
+  {
+    "ename": "Dhelmise",
+    "id": "781",
+    "type": ["ghost", "grass"]
+  },
+  {
+    "ename": "Jangmo-o",
+    "id": "782",
+    "type": ["dragon"]
+  },
+  {
+    "ename": "Hakamo-o",
+    "id": "783",
+    "type": ["dragon", "fighting"]
+  },
+  {
+    "ename": "Kommo-o",
+    "id": "784",
+    "type": ["dragon", "fighting"]
+  },
+  {
+    "ename": "Tapu Koko",
+    "id": "785",
+    "type": ["electric", "fairy"]
+  },
+  {
+    "ename": "Tapu Lele",
+    "id": "786",
+    "type": ["psychic", "fairy"]
+  },
+  {
+    "ename": "Tapu Bulu",
+    "id": "787",
+    "type": ["grass", "fairy"]
+  },
+  {
+    "ename": "Tapu Fini",
+    "id": "788",
+    "type": ["water", "fairy"]
+  },
+  {
+    "ename": "Cosmog",
+    "id": "789",
+    "type": ["psychic"]
+  },
+  {
+    "ename": "Cosmoem",
+    "id": "790",
+    "type": ["psychic"]
+  },
+  {
+    "ename": "Solgaleo",
+    "id": "791",
+    "type": ["psychic", "steel"]
+  },
+  {
+    "ename": "Lunala",
+    "id": "792",
+    "type": ["psychic", "ghost"]
+  },
+  {
+    "ename": "Nihilego",
+    "id": "793",
+    "type": ["rock", "poison"]
+  },
+  {
+    "ename": "Buzzwole",
+    "id": "794",
+    "type": ["bug", "fighting"]
+  },
+  {
+    "ename": "Pheromosa",
+    "id": "795",
+    "type": ["bug", "fighting"]
+  },
+  {
+    "ename": "Xurkitree",
+    "id": "796",
+    "type": ["electric"]
+  },
+  {
+    "ename": "Celesteela",
+    "id": "797",
+    "type": ["steel", "flying"]
+  },
+  {
+    "ename": "Kartana",
+    "id": "798",
+    "type": ["grass", "steel"]
+  },
+  {
+    "ename": "Guzzlord",
+    "id": "799",
+    "type": ["dark", "dragon"]
+  },
+  {
+    "ename": "Necrozma",
+    "id": "800",
+    "type": ["psychic", "steel", "ghost", "dragon"]
+  },
+  {
+    "ename": "Magearna",
+    "id": "801",
+    "type": ["steel", "fairy"]
+  },
+  {
+    "ename": "Marshadow",
+    "id": "802",
+    "type": ["fighting", "ghost"]
+  },
+  {
+    "ename": "Poipole",
+    "id": "803",
+    "type": ["poison"]
+  },
+  {
+    "ename": "Naganadel",
+    "id": "804",
+    "type": ["poison", "dragon"]
+  },
+  {
+    "ename": "Stakataka",
+    "id": "805",
+    "type": ["rock", "steel"]
+  },
+  {
+    "ename": "Blacephalon",
+    "id": "806",
+    "type": ["fire", "ghost"]
+  },
+  {
+    "ename": "Zeraora",
+    "id": "807",
+    "type": ["electric"]
   }
 ];
 
