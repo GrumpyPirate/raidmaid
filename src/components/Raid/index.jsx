@@ -10,6 +10,7 @@ import classes from './index.css';
 
 // Components
 import { PillButton } from '../Button';
+import PokemonSprite from '../PokemonSprite';
 
 // Define component
 const Raid = ({ id, pokemonId, hatchesAt, meetupAt, locationId }) => {
@@ -20,9 +21,7 @@ const Raid = ({ id, pokemonId, hatchesAt, meetupAt, locationId }) => {
     <li className={classes.raid} tabIndex="0">
       {/* Pokemon Icon */}
       <div className={classes.raidIcon}>
-        <div className={classes.raidColumn}>
-          <img src="https://placehold.it/72x72" alt="Pokémon" />
-        </div>
+        <PokemonSprite pokemon="groudon" />
       </div>
 
       {/* Raid Location */}
