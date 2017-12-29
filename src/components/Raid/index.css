@@ -32,6 +32,7 @@
 
 .raid > * {
   flex: 0 0 auto;
+  max-width: var(--current-raid-height-xs);
 }
 
 .raidColumn {
@@ -88,6 +89,7 @@
   flex-shrink: 1;
   align-self: stretch;
   padding-top: 8px;
+  max-width: none;
 
   @media (--tablet-up) {
     align-self: center;
