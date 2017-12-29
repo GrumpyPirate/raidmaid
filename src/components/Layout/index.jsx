@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import classes from './index.css';
 
 // Container
-function Container ({ fluid, children }) {
+const Container = ({ fluid, children }) => {
   const classNames = fluid
     ? `${classes.container} ${classes.containerFluid}`
     : classes.container;
@@ -14,7 +14,7 @@ function Container ({ fluid, children }) {
   return (
     <div className={classNames}>{children}</div>
   );
-} // /Container
+}; // /Container
 
 // PropTypes
 Container.propTypes = {
@@ -23,7 +23,7 @@ Container.propTypes = {
     PropTypes.node,
     PropTypes.arrayOf(PropTypes.node)
   ])
-}
+};
 
 // Exports
 export {

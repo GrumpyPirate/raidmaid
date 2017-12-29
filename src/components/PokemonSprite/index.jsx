@@ -8,21 +8,34 @@ import classes from './index.css';
 // Images
 import PokemonSprites from './icons';
 
-// Components
-// import { PillButton } from '../Button';
-
 // Define component
 const PokemonSprite = ({ pokemon }) => {
+  const formattedPokemonName = pokemon.ename.toLowerCase()
+  const sprite = PokemonSprites[formattedPokemonName];
+
   return (
     <figure className={classes.pokemonSprite}>
-      <img src={PokemonSprites.groudon} alt="" />
+      <img
+        src={sprite}
+        alt={`#${pokemon.id}: ${pokemon.ename}`}
+        title={`#${pokemon.id}: ${pokemon.ename}`}
+      />
     </figure>
   );
 }; // /Component
 
 // PropTypes
 PokemonSprite.propTypes = {
-  pokemon: PropTypes.string.isRequired
+  pokemon: PropTypes.shape({
+    id: PropTypes.oneOfType([
+      PropTypes.string.isRequired,
+      PropTypes.number.isRequired
+    ]).isRequired,
+    ename: PropTypes.string.isRequired,
+    type: PropTypes.arrayOf(
+      PropTypes.string.isRequired
+    ).isRequired
+  }).isRequired
 };
 
 export default PokemonSprite;

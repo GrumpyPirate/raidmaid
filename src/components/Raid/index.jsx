@@ -13,15 +13,22 @@ import { PillButton } from '../Button';
 import PokemonSprite from '../PokemonSprite';
 
 // Define component
-const Raid = ({ id, pokemonId, hatchesAt, meetupAt, locationId }) => {
-  const formattedHatchTime = moment.unix(hatchesAt).format('HH:mm');
-  const formattedMeetupTime = moment.unix(meetupAt).format('HH:mm');
+const Raid = ({ id, pokemon, hatchesAt, meetupAt, locationId }) => {
+  const formattedHatchTime = moment(hatchesAt).format('HH:mm');
+
+  let formattedMeetupTime;
+  if (meetupAt) {
+    formattedMeetupTime = moment(meetupAt).format('HH:mm');
+  } else {
+
+  }
 
   return (
     <li className={classes.raid} tabIndex="0">
       {/* Pokemon Icon */}
       <div className={classes.raidIcon}>
-        <PokemonSprite pokemon="groudon" />
+        {/* <PokemonSprite pokemon={pokemon} /> */}
+        <PokemonSprite pokemon={pokemon} />
       </div>
 
       {/* Raid Location */}
@@ -43,8 +50,17 @@ const Raid = ({ id, pokemonId, hatchesAt, meetupAt, locationId }) => {
       {/* Raid Meetup time */}
       <div className={classes.raidMeetupTime}>
         <div className={classes.raidColumn}>
-          <span className={classes.raidColumnSubtitle}>Meet</span>
-          <h4 className={`${classes.raidColumnTitle} ${classes.raidMeetupTimeText}`}>{formattedMeetupTime}</h4>
+          {formattedMeetupTime
+            ? (
+              <div>
+                <span className={classes.raidColumnSubtitle}>Meet</span>
+                <h4 className={`${classes.raidColumnTitle} ${classes.raidMeetupTimeText}`}>
+                  {formattedMeetupTime}
+                </h4>
+              </div>
+            )
+            : <p>No meetup.</p>
+          }
         </div>
       </div>
 
@@ -61,10 +77,16 @@ const Raid = ({ id, pokemonId, hatchesAt, meetupAt, locationId }) => {
 // PropTypes
 Raid.propTypes = {
   id: PropTypes.number.isRequired,
-  pokemonId: PropTypes.oneOfType([
-    PropTypes.string.isRequired,
-    PropTypes.number.isRequired
-  ]),
+  pokemon: PropTypes.shape({
+    id: PropTypes.oneOfType([
+      PropTypes.string.isRequired,
+      PropTypes.number.isRequired
+    ]).isRequired,
+    ename: PropTypes.string.isRequired,
+    type: PropTypes.arrayOf(
+      PropTypes.string.isRequired
+    ).isRequired
+  }).isRequired,
   hatchesAt: PropTypes.number.isRequired,
   meetupAt: PropTypes.number,
   locationId: PropTypes.number.isRequired

@@ -1,6 +1,12 @@
 // React
 import React, { Component } from 'react';
 
+// React router
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom';
+
 // Styles
 import classes from './index.css'
 
@@ -13,13 +19,17 @@ import CurrentRaidList from '../CurrentRaidList';
 class App extends Component {
   render () {
     return (
-      <div className={classes.App}>
-        {/* App header */}
-        <Header />
+      <Router>
+        <Route exact path="/" component={() => (
+          <div className={classes.App}>
+            {/* App header */}
+            <Header />
 
-        {/* Current raid list */}
-        <CurrentRaidList />
-      </div>
+            {/* Current raid list */}
+            <CurrentRaidList />
+          </div>
+        )}/>
+      </Router>
     );
   } // /render
 } // /Component
